@@ -80,7 +80,6 @@ To install packages individually, we can now use the following command: `conda i
 
 ```
 conda install \
- jupyterlab=2.* \
  numpy=1.* \
  pandas=1.* 
 ```
