@@ -13,7 +13,7 @@ These instructions were created using computers that satisfied these requirement
 
 Table of Contents:
 - [Git and Bash](#git-and-bash)
-- [Python, Conda, and JupyterLab](#python-conda-and-jupyterlab)
+- [Python and Conda](#python-and-conda)
 - [R, IRkernel, Rtools, and RStudio](#r-irkernel-rtools-and-rstudio)
 
 ## Git and Bash
@@ -59,7 +59,7 @@ There is NO WARRANTY, to the extent permitted by law.
 
 > Via right click you can also reach the settings menu where you can configure Git Bash to your preferences, a couple of tips would be to check "Mouse -> Clicks place command line cursor" and change the font to something more legible, e.g. Consolas ("Text -> Select").
 
-### Python and Conda
+## Python and Conda
 
 We will be using Python for this demo, and `conda` as our Python package manager. To install Python and the `conda` package manager, we will use the [Miniconda platform (read more here)](https://docs.conda.io/en/latest/miniconda.html), for which the [Python 3.8 64-bit version can be downloaded here](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe). After the download has finished, run the installer and accept the default configuration for all pages.
 
@@ -137,11 +137,8 @@ To install packages individually, we can now use the following command: `conda i
 
 ```
 conda install \
- jupyterlab=2.* \
  numpy=1.* \
- pandas=1.* \
- flake8=3.* \
- black=19.*
+ pandas=1.* 
 ```
 
 `conda` will show you the packages that will be downloaded,
