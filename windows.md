@@ -30,13 +30,13 @@ Go to <https://git-scm.com/download/win> and download the windows version of git
 - *Optional* On the **Select Components** page, check "On the Desktop" under "Additional icons".
 - On the **Choosing the default editor used by Git** page, select "Use Visual Studio Code as Git's default editor" from the drop-down menu'
 
-![](/resources_pages/imgs/vscode-as-git-editor.png)
+![](imgs/vscode-as-git-editor.png)
 
 > Note if you wish to pin Git Bash to the taskbar, you need to search for the program in the start menu, right click the entry and select "Pin to taskbar". If you instead first launch the program and pin it by right clicking on the taskbar icon, Git Bash will open with the wrong home directory (`/` instead of `/c/users/$USERNAME`.
 
 After installation, test if you were successful by opening the Git Bash program. Below is a picture of the Git Bash icon on the Desktop and an opened instance of the Git Bash terminal (we will often refer to this as just "the terminal"):
 
-![](/resources_pages/imgs/gitbash.png)
+![](imgs/gitbash.png)
 
 In the terminal, type the following to check which version of Bash you just installed:
 
@@ -89,7 +89,7 @@ conda init bash
 
 You will see that this modified a few configuration files, which makes `conda` visible to the terminal. Close all open terminal windows and launch a new one, you should now see that the prompt string has changed to include the word `(base)` as in the screenshot below:
 
-![](/resources_pages/imgs/add-conda-env-to-ps1.png)
+![](imgs/add-conda-env-to-ps1.png)
 
 If you type
 
@@ -196,19 +196,19 @@ Download the Windows version of RStudio from <https://www.rstudio.com/products/r
 
 To see if you were successful, try opening RStudio by clicking on its icon. It should open and looks something like this picture below:
 
-![](/resources_pages/imgs/RStudio.png)
+![](imgs/RStudio.png)
 
 Next, we will make sure that Rstudio uses the same directories as R from terminal for its configuration. To do this, we will need to set an environmental variable in Windows. First, open the start menu, type "env" and select the match that reads "Edit the system environment variables". Click the button at the bottom that reads "Environmental Variables...":
 
-![](/resources_pages/imgs/sys-props-env-vars.png)
+![](imgs/sys-props-env-vars.png)
 
 Under "User variable" click the "New..." button:
 
-![](/resources_pages/imgs/env-vars-new-user-var.png)
+![](imgs/env-vars-new-user-var.png)
 
 And type in `R_USER` as the "Variable name" and `C:\Users\username` as the "Variable value", replacing `username` with your actual user name (if you don't know your user name, look at the top of the screenshot above where it says "User variables for your_username"):
 
-![](/resources_pages/imgs/new-user-var-values.png)
+![](imgs/new-user-var-values.png)
 
 Click "OK" on all of the three windows we opened above and you're done! If you open RStudio and R from terminal and type the following in both:
 

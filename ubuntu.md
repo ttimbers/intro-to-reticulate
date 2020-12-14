@@ -142,7 +142,7 @@ Download the Ubuntu 18/Debian 10 Desktop version of RStudio Preview from [https:
 
 To see if you were successful, try opening RStudio by clicking on its icon or typing `rstudio` in a terminal. It should open and look something like this picture below:
 
-![](/resources_pages/imgs/RStudio-ubuntu.png)
+![](imgs/RStudio-ubuntu.png)
 
 > Note that since we installed RStudio directly from a deb file rather than from a repository or a snap package, it will not be updated when we run `sudo apt upgrade` and not automatically as for snap packages. Instead, RStudio will notify you of any available updates when the program is launched.
 

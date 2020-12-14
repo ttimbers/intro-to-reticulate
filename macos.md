@@ -124,7 +124,7 @@ Download the macOS Desktop version of RStudio Preview from [https://rstudio.com/
 
 To see if you were successful, try opening RStudio by clicking on its icon (from Finder, Applications or Launchpad). It should open and look something like this picture below:
 
-![](/resources_pages/imgs/RStudio.png)
+![](imgs/RStudio.png)
 
 
 ### {tidyverse} R packages
