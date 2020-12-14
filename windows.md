@@ -12,9 +12,9 @@ These instructions were created using computers that satisfied these requirement
 - uses English as the default language
 
 Table of Contents:
-- [Git and Bash](#git-and-bash){:target="_self"}
-- [Python, Conda, and JupyterLab](#python-conda-and-jupyterlab){:target="_self"}
-- [R, IRkernel, Rtools, and RStudio](#r-irkernel-rtools-and-rstudio){:target="_self"}
+- [Git and Bash](#git-and-bash)
+- [Python, Conda, and JupyterLab](#python-conda-and-jupyterlab)
+- [R, IRkernel, Rtools, and RStudio](#r-irkernel-rtools-and-rstudio)
 
 ## Git and Bash
 
