@@ -10,14 +10,14 @@ at the repl/console, in a script and inside R Markdown. As well as how to bring 
 
 We will do some setup collectively at the workshop, however, some aspects of setting this up can take some time, so we ask you to do them ahead of time. Please click on the link below for your computer's operating system. If you think this messes with how you have setup your system, feel free to just install the parts you are missing, or just watch the workshop and then later try to setup reticulate on top of your system's setup.
 
-- [Windows](windows.md)
-- [Mac OS](macos.md)
-- [Ubuntu](ubuntu.md)
+- [Windows](setup-instructions/windows_install_python.md)
+- [Mac OS](setup-instructions/macos_install_python.md)
+- [Ubuntu](setup-instructions/ubuntu_install_python.md)
 
 ## During the workshop
 
 We will talk through these slides: [slides](slides/reticulate-intro.pdf)
 
-And then talk/walk through these remaining setup instructions: [setup-after-installing-python.md](setup-after-installing-python.md)
+And then talk/walk through these remaining setup instructions: [setup-instructions/setup-after-installing-python.md](setup-after-installing-python.md)
 
 And then finally, create this document: [python_rmd.Rmd](python_rmd.Rmd)
