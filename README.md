@@ -20,4 +20,5 @@ We will talk through these slides: [slides](slides/reticulate-intro.pdf)
 
 And then talk/walk through these remaining setup instructions: [setup-instructions/setup-after-installing-python.md](setup-after-installing-python.md)
 
-And then finally, create this document: [python_rmd.Rmd](python_rmd.Rmd)
+And then finally, we will start [here](python_rmd_empty.Rmd) in an skeleton 
+R Markdown document and work towards creating this as a final product: [python_rmd.Rmd](python_rmd.Rmd) (which renders to [python_rmd.md](python_rmd.md)).

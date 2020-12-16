@@ -246,7 +246,7 @@ by opening up RStudio and
 typing the following into the R console inside RStudio:
 
 ```
-install.packages('tidyverse')
+install.packages('tidyverse', 'rmarkdown', 'usethis')
 ```
 
 If you get a prompt asking if you want to install packages that need compilation from sources, click "Yes".

@@ -159,7 +159,7 @@ by opening up RStudio and
 typing the following into the R console inside RStudio:
 
 ```
-install.packages('tidyverse')
+install.packages('tidyverse', 'rmarkdown', 'usethis')
 ```
 
 > Note: we will install reticulate together during the demo.
