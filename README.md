@@ -16,8 +16,8 @@ We will do some setup collectively at the workshop, however, some aspects of set
 
 ## During the workshop
 
-We will talk through these slides: [slides](slides.pdf)
+We will talk through these slides: [slides](slides/reticulate-intro.pdf)
 
-And then walk through these remaining setup instructions: [setup-after-installing-python.md](setup-after-installing-python.md)
+And then talk/walk through these remaining setup instructions: [setup-after-installing-python.md](setup-after-installing-python.md)
 
 And then finally, create this document: [python_rmd.Rmd](python_rmd.Rmd)
