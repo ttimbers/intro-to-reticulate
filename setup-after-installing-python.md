@@ -36,22 +36,10 @@ You can now use RStudio as an effective Python IDE. To do so, follow these steps
   
 5. Open Global Options in RStudio and in the Terminal sub-menu, select "Custom" as the "New terminals to open with" option, and add the path to GitBash (should be something like `C:/Program Files/Git/bin/bash.exe`) as the "Custom shell binary" option. Finally set `-l` (lower case L) as the option for "Custom shell command-line options".
 
-```{figure} img/custom-terminal.png
----
-width: 500px
-name: custom-terminal
-align: left
----
-```
-  
+<img src="img/custom-terminal.png" width=500>
+
 6. **Restart R!** Open R and close the terminal tab. Open a new terminal.
 
-```{figure} img/new-terminal.png
----
-width: 700px
-name: new-terminal
-align: left
----
-```
+<img src="img/new-terminal.png" width=y00>
 
 7. Start using Python in RStudio by typing `repl_python()` in the R console, or running a line of Python code from a Python script from the RStudio editor by Cntrl + enter. Or by running scripts from the terminal inside RStudio.
