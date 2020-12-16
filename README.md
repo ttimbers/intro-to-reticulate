@@ -13,3 +13,11 @@ We will do some setup collectively at the workshop, however, some aspects of set
 - [Windows](windows.md)
 - [Mac OS](macos.md)
 - [Ubuntu](ubuntu.md)
+
+## During the workshop
+
+We will talk through these slides: [slides](slides.pdf)
+
+And then walk through these remaining setup instructions: [setup-after-installing-python.md](setup-after-installing-python.md)
+
+And then finally, create this document: [python_rmd.Rmd](python_rmd.Rmd)
