@@ -1,5 +1,5 @@
 # Introduction to {reticulate}
-- Workshop for R Ladies Baltimore
+- Workshop for R Ladies Baltimore ([video](https://www.youtube.com/watch?v=U3ByGh8RmSc))
 - Author: [Tiffany Timbers](https://www.tiffanytimbers.com/)
 - Date: 2020-12-16
 
