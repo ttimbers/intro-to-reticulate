@@ -19,7 +19,7 @@ You can now use RStudio as an effective Python IDE. To do so, follow these steps
   
 6. **Restart R!**
 
-7. Start using Python in RStudio by typing `repl_python()` in the R console, or running a line of Python code from a Python script from the RStudio editor by Cntrl + enter. Or by running scripts from the terminal inside RStudio.
+7. Start using Python in RStudio by typing `reticulate::repl_python()` in the R console, or running a line of Python code from a Python script from the RStudio editor by Cntrl + enter. Or by running scripts from the terminal inside RStudio.
 
 ### Windows users
 
@@ -42,4 +42,4 @@ You can now use RStudio as an effective Python IDE. To do so, follow these steps
 
 <img src="../imgs/new-terminal.png" width=y00>
 
-7. Start using Python in RStudio by typing `repl_python()` in the R console, or running a line of Python code from a Python script from the RStudio editor by Cntrl + enter. Or by running scripts from the terminal inside RStudio.
+7. Start using Python in RStudio by typing `reticulate::repl_python()` in the R console, or running a line of Python code from a Python script from the RStudio editor by Cntrl + enter. Or by running scripts from the terminal inside RStudio.
