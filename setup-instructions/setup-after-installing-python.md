@@ -12,7 +12,7 @@ You can now use RStudio as an effective Python IDE. To do so, follow these steps
 
 4. Specify that {reticulate} should use the miniconda version of Python in your `.Rprofile` file:
 
-  - type `usethis::edit_r_profile` into the R console inside RStudio, and an `.Rprofile` file from your HOME directory should open in RStudio
+  - type `usethis::edit_r_profile()` into the R console inside RStudio, and an `.Rprofile` file from your HOME directory should open in RStudio
   - add this to your `.Rprofile` file: `Sys.setenv(RETICULATE_PYTHON = "path_to_miniconda's_python")` replacing `"path_to_miniconda's_python"` with the path to your miniconda Python
   
 5. In terminal type `code ~/.bash_profile` and add the line `export PATH="/opt/miniconda3/bin:$PATH"`, replacing `/opt/miniconda3/bin` with the path to the folder containing your miniconda Python (be careful not to include `python` at the end of this path). 
